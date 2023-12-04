@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:40px
+}
+
+.stepper {
+  display: flex;
+  position: relative;
+  top:0;
+  transition: top 200ms linear;
+  flex-direction: column;
+}
+
+.odometer {
+  height: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.stepper-value {
+  height:20px;
+  line-height: 20px;
+}
